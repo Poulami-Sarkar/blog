@@ -1,79 +1,56 @@
-# Bitwiser Material theme for Jekyll.
-A minimal material design theme using [muicss](https://www.muicss.com).
+# Carte Noire
 
-## Features
+A simple Jekyll theme for blogging. Not named after the coffee.
 
-* Clean, simple and responsive layout
-* Code formatting.
-* Sitemap included.
-* Google analytics.
-* Disqus commenting (Loaded lazily).
-* Share post to facebook and twitter.
-* Robots.txt included.
-* Custom 404 error page.
-* Clean material theme.
-* Awesome navigation menu on small screens.
-* Post specific color or cover image.
+![Homepage](http://i.imgur.com/xlmHArV.png)
 
-Theme website: http://bitwiser.in/bitwiser-material/
+### Article
+![Article](http://i.imgur.com/8rD8FfC.png)
 
-Demo post: http://bitwiser.in/bitwiser-material/demo.html
+### Disqus Comments
+![Comments](http://i.imgur.com/TBZHQwF.png)
 
-Usage: [http://bitwiser.in/bitwiser-material/usage.html](http://bitwiser.in/bitwiser-material/usage.html)
+### Posts grouped by year
+![All Posts](http://i.imgur.com/9bNs2Sc.png)
 
-Download latest Zip: [Here](https://goo.gl/VWBbHF)
+### JavaScript Search
+![Search](http://i.imgur.com/yQqMeSl.png)
 
-Or browse releases: [Releases](https://github.com/brijeshb42/bitwiser-material/releases)
+### Menu by mmenu
+![Menu](http://i.imgur.com/SClrNSH.png)
 
-Report issues: [Issues](https://github.com/brijeshb42/bitwiser-material/issues/new)
+## Contact
+If you wish to contact me regarding this theme please raise an issue on GitHub,
+tweet me [@_jacobtomlinson](http://www.twitter.com/_jacobtomlinson) or email me
+[jacob@jacobtomlinson.co.uk](mailto:jacob@jacobtomlinson.co.uk).
 
-If you are using this theme, do not forget to :star: this repo or tweet [@brijeshb42](https://twitter.com/brijeshb42).
+## Contribution
+Pull requests are very welcome.
 
-Pull requests are also welcome :thumbsup:.
+## Theme
+This jekyll theme has been created from scratch. Ideas and inspiration are taken
+from other places but the code is my own.
 
+## Tools and Libraries
+The following tools and libraries are used in this theme
 
-## Getting Started
+### JavaScript
+ * [jQuery](http://jquery.com/)
+ * [MMenu](http://mmenu.frebsite.nl/)
+ * [HighlightJS](https://highlightjs.org/)
+ * [Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search)
 
-(Assuming you know what Jekyll and Github pages are.)
+### CSS
+ * [Bootstrap](http://getbootstrap.com/)
+ * [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
 
-* Download this theme's zip file from [here](https://goo.gl/VWBbHF) or clone the repository using ```git clone https://github.com/brijeshb42/bitwiser-material.git```.
+### Social
+ * [AddThis](http://www.addthis.com/)
+ * [Disqus](https://disqus.com/)
 
-* Install ```ruby``` and then do ```gem install jekyll```. This theme uses the latest ```jekyll``` version. So if you already have it installed, then upgrade it.
+### Other
+ * [Real Favicon Generator](http://realfavicongenerator.net/)
+ * [Google Analytics](http://www.google.com/analytics/)
 
-* ```_config.yml``` describes all the variables which you are required to set. The description begins with double hash(```##```). And the value to be set is commented below it using ```#```.
-
-* Edit ```_config.yml``` according to your requirements.
-	* ```title``` : ```Your website name```
-	* ```disqus``` : ```disqusForumName```
-		If this value is present, disqus commenting will be automatically added to all your blog posts.
-	* ```ga_id``` : ```googleAnalyticsID```
-		If this value is present, google analytics will be added to your website/blog.
-		If ```ga_id``` is present, make sure that ```ga_domain``` is also present.
-	* ```description```: ```A short description of your website to be included in meta tag of your homepage```
-	* ```keywords``` : ```a few frequently used keywords on your site```
-	* ```links``` : This variable has a few commonly used social networks' links
-		* ```facebook```: ```facebookId```
-		* ```twitter``` : ```twitterHandle```
-		* ```email```: ```email@example.com```
-		* ```github```: ```githubUsername```
-
-* After setting the values in ```_config.yml```, you can start adding posts in the ```_posts``` directory. Remove the example posts from the directory. The name of files in this directory should be according to specifications by ```jekyll```, i.e, ```YYYY-MM-DD-your-post-title.md```. **Note** that the file name extenion can be anything from md, markdown, mkd, textile or html.
-
-* Replace the image files ```favicon.png``` and ```sharer.png``` with images of your own.
-
-* Test the site on local machine using ```jekyll serve``` in the theme directory.
-
-* If all works well, ```git push``` your changes to your github pages repository ```https://github.com/githubUserName/githubUserName.github.io```
-
-* Then visit your blog at [http://githubUserName.github.io](http://githubUserName.github.io).
-
-* If you want to use a custom domain, then edit the ```CNAME``` file and add your own domain ```example.com```. Make sure your domain points to github ip address.
-
-
-### New Feature
-
-* In every blog post, custom header color or cover image can be added.
-* While creating a blog post, just add extra `color` or `cover` or both attributes in th front matter of the post alongside `title` and `date`.
-* Value of `color` can be anything in `[grey, orange, yellow, amber, light-blue, lime, teal, blue, black-87, blue-grey, brown, indigo, purple, deep-purple, red, pink]`.
-* See the demo of all the colors [here](http://bitwiser.in/bitwiser-material/2015/07/12/color-choices.html)
-* And the value of `cover` can be an absolute url of an image or a relative url like `/img/post-cover.jpg`. If using relative url, make sure the image is added in the `img` directory.
+## License
+The jekyll theme, HTML, CSS and JavaScript is licensed under GPLv3 (unless stated otherwise in the file).

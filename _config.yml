@@ -1,33 +1,37 @@
 # Site settings
-## Change the values as needed.
 title: "GSoC Blog"
 email: poulamisarkar101@gmail.com
 description: "GSoC Blog"
 baseurl: "/blog"
 url: "https://poulami-sarkar.github.io/blog/"
 title_description: "This project implements OCR for television news from Bengali and Hindi news channels. I am using OpenCV along with a pre-trained tensorflow model called EAST(An Efficient and Accurte Scene Test detector) for detecting ROI (Regions of interest) from the news videos. Then the detected ROIs are extracted and OCR, implemented using tesseract 4.0 is used to exract the text."
-keywords: ""
-paginate: 5
-paginate_path: "page:num"
+title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
+google_analytics: "UA-20365477-4"
+disqus_account: cartenoire
+github_repository: https://github.com/Poulami-Sarkar/Bengali-Hindi-OCR
+addthis_id: ra-513c6fa83da6ec67
+post_limit: 5
+
+# Social usernames/URLs
+twitter_username: 0Kira10
+github_username:  https://github.com/Poulami-Sarkar/Bengali-Hindi-OCR
+instagram_username: 
+reddit_username: 
+linkedin_link: https://www.linkedin.com/in/poulami-sarkar/
+email: poulamisarkar101@gmail.com
+stackoverflow_link:
+xing_link:
+facebook_link:
+
+# Footer
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/Poulami-Sarkar/\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+
 # Build settings
 markdown: kramdown
-highlighter: pygments
-sass:
-  sass_dir: _sass
-  style: :compressed
-links:
-  facebook: 
-  twitter: 0Kira10
-  email: poulamisarkar101@gmail.com
-  github: https://github.com/Poulami-Sarkar/Bengali-Hindi-OCR
-exclude:
-  - bower_components
-  - README.md
-full_name: Brijesh
 
-##set this to enable disqus commenting
-disqus: bitwiser
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
-##set this to enable google analytics
-#ga_id: analyticsID
-#ga_domain: bitwiser.in
+permalink: pretty
+exclude: [vendor]
