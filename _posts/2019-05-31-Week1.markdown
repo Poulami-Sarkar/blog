@@ -2,3 +2,16 @@
 title: Week1
 ---
 ## Starting with text detection
+Deliverables for my first week of working with Red Hen involved getting the initial text detection part up and running. I am current using the pre-trained deep learning model EAST: An Efficient and Accurate Scene Text Detector. The EAST pipeline is capable of predicting words and lines of text at arbitrary orientations on 720p images, and furthermore, can run at 13 FPS. More details on EAST can be found [here](https://arxiv.org/abs/1704.03155).
+
+### Deliverables for week 1
+1. Detection of all regions of the text from a news video
+2. Create a pipeline that automatically reads videofiles stored on the server and extract the regions of text
+3. Basic OCR using tesseract4.0 
+
+In my implemetation, I tried performing the OCR on each region of detected text as it was being detected. This resulted in a jumbled output as the text regions were being detected in a random order. This problem was solved by ordering the detected regions of text by their cooridinated on the screen. 
+
+Steps to follow:
+
+
+In the current implementation the 

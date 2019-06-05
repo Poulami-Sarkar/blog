@@ -14,7 +14,7 @@ post_limit: 5
 
 # Social usernames/URLs
 twitter_username: 0Kira10
-github_username:  https://github.com/Poulami-Sarkar/
+github_username:  https://github.com/Poulami-Sarkar/Bengali-Hindi-OCR
 instagram_username: 
 reddit_username: 
 linkedin_link: https://www.linkedin.com/in/poulami-sarkar/
@@ -24,7 +24,7 @@ xing_link:
 facebook_link:
 
 # Footer
-footer_right: "&lt;/&gt; on <a href=\"https://github.com/Poulami-Sarkar/Bengali-Hindi-OCR\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/Poulami-Sarkar/\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
 markdown: kramdown
