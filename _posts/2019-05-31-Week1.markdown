@@ -12,6 +12,6 @@ Deliverables for my first week of working with Red Hen involved getting the init
 In my implemetation, I tried performing the OCR on each region of detected text as it was being detected. This resulted in a jumbled output as the text regions were being detected in a random order. This problem was solved by ordering the detected regions of text by their cooridinated on the screen. 
 
 Steps to follow:
-
-
-In the current implementation the 
+1. Detect regions of text from each frame
+2. Extract and save all the detected regions of interest in a separate folder. The saved images are named accoriding to their x and y coordinate positions (Ex x.y.jpg) in the frame
+3. The OCR script orders the files in ascending order, reads them one at the time and writes the OCR output to an output file.
