@@ -1,44 +1,56 @@
-This repository is no longer maintained. 
-============
+# Carte Noire
 
-Herring Cove
-============
+A simple Jekyll theme for blogging. Not named after the coffee.
 
-Herring Cove is a clean and responsive theme for Jekyll. 
+![Homepage](http://i.imgur.com/xlmHArV.png)
 
+### Article
+![Article](http://i.imgur.com/8rD8FfC.png)
 
-### Overview 
+### Disqus Comments
+![Comments](http://i.imgur.com/TBZHQwF.png)
 
-* Fixed Sidebar with social links
-* Minimal design 
-* Comments by Disqus
-* Social Sharing abilities 
-* Easy to configure
-* Based on Bootstrap
+### Posts grouped by year
+![All Posts](http://i.imgur.com/9bNs2Sc.png)
 
-### Screenshots
+### JavaScript Search
+![Search](http://i.imgur.com/yQqMeSl.png)
 
-![screenshot](/images/screenshot1.png)
-![screenshot](/images/screenshot2.png)
+### Menu by mmenu
+![Menu](http://i.imgur.com/SClrNSH.png)
 
-### Setup
+## Contact
+If you wish to contact me regarding this theme please raise an issue on GitHub,
+tweet me [@_jacobtomlinson](http://www.twitter.com/_jacobtomlinson) or email me
+[jacob@jacobtomlinson.co.uk](mailto:jacob@jacobtomlinson.co.uk).
 
-1. Install Jekyll
-2. Fork or [download](https://github.com/arnp/herring-cove/archive/master.zip) this theme repo
-3. Edit the `_config.yml` file
+## Contribution
+Pull requests are very welcome.
 
-You can change the showcase image by replacing `showcase.jpg` file in the `images` folder. I'll try to find a better way to do this soon. 
+## Theme
+This jekyll theme has been created from scratch. Ideas and inspiration are taken
+from other places but the code is my own.
 
-### Download
+## Tools and Libraries
+The following tools and libraries are used in this theme
 
-[download](https://github.com/arnp/herring-cove/archive/master.zip)
+### JavaScript
+ * [jQuery](http://jquery.com/)
+ * [MMenu](http://mmenu.frebsite.nl/)
+ * [HighlightJS](https://highlightjs.org/)
+ * [Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search)
 
-### License
-* [MIT](http://opensource.org/licenses/MIT)
+### CSS
+ * [Bootstrap](http://getbootstrap.com/)
+ * [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
 
--------------
-Herring Cove is always a work in progress and as such, I hope to clean up the code and add features as time permits. Feel free to add your own additions. 
+### Social
+ * [AddThis](http://www.addthis.com/)
+ * [Disqus](https://disqus.com/)
 
-*What's with the name?*
+### Other
+ * [Real Favicon Generator](http://realfavicongenerator.net/)
+ * [Google Analytics](http://www.google.com/analytics/)
 
-[Herring Cove](http://www.capecodbeachchair.com/beachguide/index.cfm?page=3&BeachID=5) is a beach on Cape Cod in Provincetown, Massachusetts. If you're in the area, be sure to check it out!
+## License
+The jekyll theme, HTML, CSS and JavaScript is licensed under GPLv3 (unless stated otherwise in the file).
