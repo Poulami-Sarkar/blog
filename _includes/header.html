@@ -1,14 +1,12 @@
-<nav id="my-menu">
-  <div>
-    <p>{{ site.title }}</p>
+<header class="mui-appbar-height site-appbar mui-z2">
 
-    <ul class="pages">
-      <li><a href="{{ site.baseurl }}/"><i class="fa fa-home"></i> Home</a></li>
-      <li><a href="{{ site.baseurl }}/posts/"><i class="fa fa-archive"></i> All Posts</a></li>
-      <li><a href="{{ site.baseurl }}/search/"><i class="fa fa-search"></i> Search</a></li>
-    </ul>
+  <div class="mui-container">
+      <div style="float: left">
 
-    {% include social_links.html %}
+    <a class="site-title" href="{{ site.baseurl }}/">
+        <h1>{{ site.title }}</h1>
+    </a>
   </div>
-</nav>
-<div class="menu-button" href="#menu"><i class="fa fa-bars"></i></div>
+  </div>
+
+</header>
