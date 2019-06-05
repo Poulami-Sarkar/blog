@@ -5,8 +5,8 @@ email: poulamisarkar101@gmail.com
 description: "Bengali and Hindi OCR"
 keywords: ""
 #url: "http://bitwiser.in/bitwiser-material" # the base hostname & protocol for your site
-url: "http://bitwiser.in/bitwiser-material" # the base hostname & protocol for your site
-baseurl: "/blog" # the subpath of your site, e.g. /blog/
+url: "https://poulami-sarkar.github.io/blog/" # the base hostname & protocol for your site
+baseurl: "/blog/" # the subpath of your site, e.g. /blog/
 paginate: 5
 paginate_path: "page:num"
 # Build settings
