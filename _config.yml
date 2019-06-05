@@ -1,13 +1,13 @@
-name: blog
+name: Blog
 author: Poulami-Sarkar
 baseurl: /blog
-description: theme for jekyll
-github: http://www.github.com/arnp
-twitter: http://www.twitter.com/
+description: GSoC Red Hen Lab
+github: http://www.github.com/Bengali-Hindi-OCR
+twitter: https://twitter.com/0Kira10
 facebook: http://www.facebook.com
-linkedin: http://www.linkedin.com
-email: rnpatel[at]me.com
-location: 42°2'16"N   70°12'47"W
+linkedin: https://www.linkedin.com/in/poulami-sarkar/
+email: poulamisarkar101@gmail.com
+location: Bangalore India
 disqus: diqus-username
 
 ##Make sure to edit the above fields, especially for disqus.
