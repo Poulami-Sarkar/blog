@@ -19,9 +19,9 @@ To optimize the code and reduce redundant detections I am skipping frames. For t
 All preprocessing done using Python's OpenCV package
 ### Version1
 The first version of OCR that I implemented using tesseract4.0 recognized English characters with a reasonable accuracy. However,the OCR results for Hindi text either produced an unacceptable number of errors in the detected text or completely failed to recognize any text.
-[Example1](/assets/article_images/tick-220.jpg)
+![Example1](/assets/article_images/tick-220.jpg)
 Output produced :""
-[Example2](/assets/article_images/tick-440.jpg)
+![Example2](/assets/article_images/tick-440.jpg)
 "HORITY ERIGHBCA GR i wwwiepfgovin ="
 Here is an example of an image for which OCR produced a blank output
 
@@ -36,8 +36,8 @@ I tried solving this problem by colour inverting the images that returned blank 
 
 ###Final Version
 The finally I added was noise removal and voilà"!!
-[Final-Example1](/assets/article_images/tick-220.jpg)
+![Final-Example1](/assets/article_images/tick-220.jpg)
 'HORITY द्वारा जनहित में जारी www.iepf.govin @'
-[Final-Example2](/assets/article_images/tick-440.jpg)
+![Final-Example2](/assets/article_images/tick-440.jpg)
 'किसी जानने वाले या प्रसिद्ध व्यक्ति के कहने से निवेश न करें'
 Stay tuned for more updates!!
