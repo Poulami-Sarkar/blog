@@ -1,37 +1,63 @@
+# Build settings
+gems:
+  - jemoji
+  - jekyll-paginate
+
 # Site settings
 title: "GSoC Blog"
+description: > # this means to ignore newlines until "email:"
+   Red Hen Lab bengali and Hindi OCR
+
 email: poulamisarkar101@gmail.com
-description: "GSoC Blog"
-baseurl: "/blog"
-url: "https://poulami-sarkar.github.io/blog/"
-title_description: "This project implements OCR for television news from Bengali and Hindi news channels. I am using OpenCV along with a pre-trained tensorflow model called EAST(An Efficient and Accurte Scene Test detector) for detecting ROI (Regions of interest) from the news videos. Then the detected ROIs are extracted and OCR, implemented using tesseract 4.0 is used to exract the text."
-title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
-google_analytics: "UA-20365477-4"
-disqus_account: cartenoire
-github_repository: https://github.com/Poulami-Sarkar/Bengali-Hindi-OCR
-addthis_id: ra-513c6fa83da6ec67
-post_limit: 5
+#blog logo
+logo: "/assets/images/df_logo.jpg"
+float_logo: true # true, false (default)
 
-# Social usernames/URLs
-twitter_username: 0Kira10
-github_username:  Poulami-Sarkar
-instagram_username: 
-reddit_username: 
-linkedin_link: https://www.linkedin.com/in/poulami-sarkar/
-email: poulamisarkar101@gmail.com
-stackoverflow_link:
-xing_link:
-facebook_link:
+# blog cover
+cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
 
-# Footer
-footer_right: "&lt;/&gt; on <a href=\"https://github.com/Poulami-Sarkar/\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+name: 'Poulami Sarkar'
+author: 'Poulami Sarkar'
+author_image: "/assets/images/author.jpg"
 
-# Build settings
-markdown: kramdown
+paginate:	5
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+url: "https://poulami-sarkar.github.io" # the base hostname & protocol for your site
+baseurl: "/blog2/"
+#used to display twitter cards
+twitter_handle: '@0Kira10'
 
-permalink: pretty
-exclude: [vendor]
+#fill in disqus shortname to use disqus
+#disqus: disqus-shortname
+
+#google_analytics: UA-XXXXX-X
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/0Kira10
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+ # - icon:	linkedin
+ #    url:	"https://www.linkedin.com/in/poulami-sarkar"
+ #    desc: Connect with me on linkedin
+ #    share_url: 
+ #   share_title: 
+ #    share_link: 
+     
+  - icon:	github
+    url:	https://github.com/Poulami-Sarkar
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+  - icon:	linkedin
+    url:	https://google.com/???
+    desc:	Add me on google+
+    share_url:
+    share_title:
+    share_link:
