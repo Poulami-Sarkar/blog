@@ -13,15 +13,15 @@ As EAST detects continuous regions of text, the previous version of the textdetc
 
 The textdetection system had to be modified to combine the continuous words and extract it as a whole. 
 To optimize the code and reduce redundant detections I am skipping frames. For the current implementation I am using a skip value of about 100 frames. This value depends on the speed of the ticker and may vary from channel to channel.
-[Example1](/assets/article_images/tick-220.jpg)
+![Example1](/blog/assets/article_images/tick-220.jpg)
 ## OCR improvements
 
 All preprocessing done using Python's OpenCV package
 ### Version1
 The first version of OCR that I implemented using tesseract4.0 recognized English characters with a reasonable accuracy. However,the OCR results for Hindi text either produced an unacceptable number of errors in the detected text or completely failed to recognize any text.
-![Example1](/assets/article_images/tick-220.jpg)
+![Example1](/blog/assets/article_images/tick-220.jpg)
 Output produced :""
-![Example2](/assets/article_images/tick-440.jpg)
+![Example2](/blog/assets/article_images/tick-440.jpg)
 "HORITY ERIGHBCA GR i wwwiepfgovin ="
 Here is an example of an image for which OCR produced a blank output
 
@@ -29,15 +29,15 @@ Here is an example of an image for which OCR produced a blank output
 I discussed the problem with my mentors, Prof Gowri and Abhinav, who suggested that I try applying some image processing techniques such as binartization,threshholding, and thinning as the images were of low resolution.
 Binarization and thresholing produced slightly better results, but some of the snapshots were still producing a blank result. 
 
-[Version2 Example1](/assets/article_images/tick-220.jpg)
+![Version2 Example1](/blog/assets/article_images/tick-220.jpg)
 'HORITY @RI oa ANT www.iepf.gov.in ='
 
 I tried solving this problem by colour inverting the images that returned blank outputs after OCR and obtained better results
 
 ###Final Version
 The finally I added was noise removal and voilà"!!
-![Final-Example1](/assets/article_images/tick-220.jpg)
+![Final-Example1](/blog/assets/article_images/tick-220.jpg)
 'HORITY द्वारा जनहित में जारी www.iepf.govin @'
-![Final-Example2](/assets/article_images/tick-440.jpg)
+![Final-Example2](/blog/assets/article_images/tick-440.jpg)
 'किसी जानने वाले या प्रसिद्ध व्यक्ति के कहने से निवेश न करें'
 Stay tuned for more updates!!
