@@ -1,6 +1,6 @@
 ---
 title:  "Week2+3"
-date:   2019-06-04 
+date:   2019-06-17 
 categories: post
 ---
 
@@ -10,7 +10,7 @@ categories: post
 
 ## Ticker Extracion
 As EAST detects continuous regions of text, the previous version of the textdetction algorithm extracted a set of disjoint words
-![Example2](/blog/assets/article_images/1.jpg) ![Example2](/blog/assets/article_images/2.jpg) ![Example2](/blog/assets/article_images/3.jpg)
+![](/blog/assets/article_images/1.jpg) ![](/blog/assets/article_images/2.jpg) ![](/blog/assets/article_images/3.jpg)
 
 
 The textdetection system had to be modified to combine the continuous words and extract it as a whole. 
