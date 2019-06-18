@@ -10,7 +10,8 @@ categories: post
 
 ## Ticker Extracion
 As EAST detects continuous regions of text, the previous version of the textdetction algorithm extracted a set of disjoint words
-![](/blog/assets/article_images/1.jpg) ![](/blog/assets/article_images/2.jpg) ![](/blog/assets/article_images/3.jpg)
+
+![](/blog/assets/article_images/1.jpg) ![](/blog/assets/article_images/3.jpg) ![](/blog/assets/article_images/2.jpg)
 
 
 The textdetection system had to be modified to combine the continuous words and extract it as a whole. 
