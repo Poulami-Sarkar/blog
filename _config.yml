@@ -23,7 +23,7 @@ author_image: "/assets/images/author.jpg"
 paginate:	5
 
 url: "https://poulami-sarkar.github.io" # the base hostname & protocol for your site
-baseurl: "/blog2/"
+baseurl: "/blog/"
 #used to display twitter cards
 twitter_handle: '@0Kira10'
 
