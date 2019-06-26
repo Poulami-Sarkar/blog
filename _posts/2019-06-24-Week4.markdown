@@ -1,0 +1,36 @@
+---
+title:  "Week2+3"
+date:   2019-06-17 
+categories: post
+---
+
+## Deliverables
+1. Extending texted detction to detect text from other parts of the video.
+
+The main challenge while implementing this part was to identify pieces of text that belong to the same sentence. In the previous version of textdetection that I used for detecting parts of the ticker, I had limited the search to the bottom of the video. Since there was only a single line of text, I simply had to recrd the lowest and hightest y and x coordinates (xmin,ymin and xmax,ymax) and crop out the text regions using `cropped = frame[ymin:ymax,xmin:xmax]`.
+
+In order to identify pieces of detected text that belong to the same sentence and crop it out as a whole, I implemented the following procedure:
+```python
+Input: Set of vertices returned after implementing EAST
+Output: Sets of continuous text
+
+1. for each frame:
+    vertices = run_east_text_detection_algorithm()
+    ''' dictionary keys = xmin for each box
+       values = x0,y0,c1,y1 '''
+    final_boxes =dict()
+
+    1. for v in vertices:
+        1. if v.x0 is in final_boxes:
+            key = v.x0
+            if final_boxes[key].x0 > v.x0:   final_boxes[key].x0 = v.x0
+            if final_boxes[key].x1 < v.x1:   final_boxes[key].x1 = v.x1
+            if final_boxes[key].y0 > v.y0:   final_boxes[key].x0 = v.y0
+            if final_boxes[key].y1 > v.y1:   final_boxes[key].y1 = v.y1
+        else
+            add v to final_boxes  
+    2. for v in final_boxes:
+        1. cropped = frame[ymin:ymax,xmin:xmax]
+        2. save(cropped)
+```
+
