@@ -47,10 +47,10 @@ K OF DOORDARSHAN} FROM OSTH TO 20TH JANL
 
 4
 0.0:0.0:13.0,240.0 --> 0.0:0.0:15.0,440.0
-"H JANUARY 6 ADMISSIONS 2019 OPEN FOR F
-..
-..
-..
+"H JANUARY 6 ADMISSIONS 2019 OPEN FOR F\
+..\
+..\
+..\
 
 57
 0.0:4.0:6.0,440.0 --> 0.0:4.0:8.0,640.0
@@ -71,3 +71,5 @@ K OF DOORDARSHAN} FROM OSTH TO 20TH JANL
 61
 0.0:4.0:24.0,40.0 --> 0.0:4.0:26.0,240.0
 रु गोथिद सिह जी की 357वीं जयत्ती के मौके पर 350 रुपये क
+
+For complete demo click here [here](https://github.com/Poulami-Sarkar/Bengali-Hindi-OCR/demo)
