@@ -33,5 +33,41 @@ With color inversion: "leh ad he |"
 Using confidence for finding out garbage recognitions was a total failure as almost all of the Hindi text was being recognized with a low confidene ranging between 10%-55% inspite of being accurately recognized.
 
 ## Demo
-ff
-{% video /blog/assets/2019-01-13_1320_IN_DD-News_Swach_Bharat.mp4 [640 540] [/blog/assets/2019-01-13_1320_IN_DD-News_Swach_Bharat.png] %}
+1
+0.0:0.0:0.0,40.0 --> 0.0:0.0:2.0,240.0
+SUTH GAMES 2019' ON DD SPORTS (TERRESTRIAL
+
+2
+0.0:0.0:4.0,440.0 --> 0.0:0.0:6.0,640.0
+1D SPORTS (TERRESTRIAL & DTH NETWORK OF DC
+
+3
+0.0:0.0:8.0,840.0 --> 0.0:0.0:10.0,1040.0
+K OF DOORDARSHAN} FROM OSTH TO 20TH JANL
+
+4
+0.0:0.0:13.0,240.0 --> 0.0:0.0:15.0,440.0
+"H JANUARY 6 ADMISSIONS 2019 OPEN FOR F
+..
+..
+..
+
+57
+0.0:4.0:6.0,440.0 --> 0.0:4.0:8.0,640.0
+शनमत्री अगस्त 1947 में जो चक हई थी, करतारपर कॉरिडोर
+
+58
+0.0:4.0:10.0,840.0 --> 0.0:4.0:12.0,1040.0
+'कॉरिडोर उसका प्रायश्चित है... ४ प्रधानमंत्री: 1984 के सि
+
+59
+0.0:4.0:15.0,240.0 --> 0.0:4.0:17.0,440.0
+84 के सिख विरोधी दंगों के पीड़ितों को न्याय दिलाने में जुटी है
+
+60
+0.0:4.0:19.0,640.0 --> 0.0:4.0:21.0,840.0
+[में जुटी है सरकार. क प्रधानमंत्री नरेंद्र मोदी ने गरु गोबिंद
+
+61
+0.0:4.0:24.0,40.0 --> 0.0:4.0:26.0,240.0
+रु गोथिद सिह जी की 357वीं जयत्ती के मौके पर 350 रुपये क
