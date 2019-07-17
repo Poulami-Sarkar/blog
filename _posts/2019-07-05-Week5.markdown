@@ -23,17 +23,17 @@ Example:
 
 ## Using confidence
 In my previous implementation, there were several instances where certain images gave a garbage output. Another new finding that I discovered was that some images gave me a better output when I colour inverted it and removed the noise while others did not. This was particularly beacuse some images had a dark background with white text and some had a light background with dark text colour. Hence, writing a general code that would work well for all images was proving to be quite troublesome. On suggestion from my mentors, I decided to use the confidence returned by tesseract4.0 in order to decide which of the two works better.
-The results were as follows
-![](/blog/assets/article_images/5.1.jpg)
+The results were as follows:<br/>
+![](/blog/assets/article_images/5.1.jpg)<br/>
 Without color inversion: "IT HELPS TO IMPROVE PHYSICAL"<br />
 Confidence: 94.8<br />
 
 With color inversion: "leh ad he |"<br />
 Confidence: 26.75<br />
 
-Using confidence for finding out garbage recognitions was a total failure as almost all of the Hindi text was being recognized with a low confidene ranging between 10%-55% inspite of being accurately recognized.
+Using confidence for finding out garbage recognitions was a total failure as almost all of the Hindi text was being recognized with a low confidene ranging between 10%-55% inspite of being accurately recognized.<br/>
 **Example**<br />
-![](/blog/assets/article_images/5.2.jpg)
+![](/blog/assets/article_images/5.2.jpg)<br />
 Output:स्वस्थ जीवनशैली अपनाएं<br />
 Confidence: 33.5
 
