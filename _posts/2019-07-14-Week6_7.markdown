@@ -8,5 +8,5 @@ categories: post
 
 Here's a demo of my progress so far. The demo shows a news video and the corresponding ticker output being written onto the terminal. Once the code is in production, the output will be written to an srt file with the appropriate timestamps. Text from all parts of the video is being detected and extracted, but for the purpose of demo, I have restricted the output to display only the ticker. 
 
-{% include youtubePlayer.html id="oDpbSwITJws" %}
+{% include youtubePlayer.html id="LkndO02KNeM" %}
 
