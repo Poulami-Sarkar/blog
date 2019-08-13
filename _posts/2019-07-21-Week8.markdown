@@ -25,34 +25,8 @@ Allocating GPU:<br/>
 `#SBATCH --gres=gpu:k40:2`<br/>
 
 2. Final script:<br/>
-```python
-Input: Set of vertices returned after implementing EAST
-Output: Sets of continuous text
-
-1. for each frame:
-    vertices = run_east_text_detection_algorithm()
-    ''' dictionary keys = xmin for each box
-       values = x0,y0,c1,y1 '''
-    final_boxes =dict()
-
-    1. for v in vertices:
-        1. if v.x0 is in final_boxes:
-            key = v.x0
-            if final_boxes[key].x0 > v.x0:   final_boxes[key].x0 = v.x0
-            if final_boxes[key].x1 < v.x1:   final_boxes[key].x1 = v.x1
-            if final_boxes[key].y0 > v.y0:   final_boxes[key].x0 = v.y0
-            if final_boxes[key].y1 > v.y1:   final_boxes[key].y1 = v.y1
-        else
-            add v to final_boxes  
-    2. for v in final_boxes:
-        1. cropped = frame[ymin:ymax,xmin:xmax]
-        2. save(cropped)
 ```
-
-
-
-
-
+```
 ```shell
 #!/bin/bash
 #SBATCH -N 5
