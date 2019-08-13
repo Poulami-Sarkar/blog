@@ -25,7 +25,7 @@ Allocating GPU:<br/>
 `#SBATCH --gres=gpu:k40:2`<br/>
 
 2. Final script:
-```shell
+```
 #!/bin/bash
 #SBATCH -N 5
 #SBATCH -c 5
