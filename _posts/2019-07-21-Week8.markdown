@@ -40,6 +40,7 @@ Allocating GPU:<br/>
 # Put commands for executing job below this line
 # This example is loading the default Python module and then
 # writing out the version of Python
+```
 module load singularity/2.5.1
 for month  in /mnt/rds/redhen/gallina/tv/2019/*; do
         for day in $month'/'*;do
@@ -51,4 +52,3 @@ for month  in /mnt/rds/redhen/gallina/tv/2019/*; do
         done
 done
 echo "running OCR"
-```
