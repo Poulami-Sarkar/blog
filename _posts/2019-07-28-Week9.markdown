@@ -4,7 +4,7 @@ date:   2019-07-21
 categories: post
 ---
 
-##Deliverables
+## Deliverables
 1. Changing the format
 2. Getting the code into production
 
