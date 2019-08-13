@@ -53,7 +53,7 @@ Output: Sets of continuous text
 
 
 
-```python
+```shell
 #!/bin/bash
 #SBATCH -N 5
 #SBATCH -c 5
