@@ -17,15 +17,15 @@ By setting the frame_skip (i.e the number of frames skipped before detecting nex
 ### Getting started with Slurm jobs
 Slurm (Simple Linux Utility for Resource Management) is an open-source job scheduler that allocates compute resources on clusters for queued researcher defined jobs.
 
-1. Allocating resources to the script
+##### Allocating resources to the script
 Allocating 5 CPUs and 12GB cpu-memory:<br/>
 `#SBATCH -c 5`<br/>
 `#SBATCH --mem-per-cpu=12G`<br/>
 Allocating GPU:<br/>
 `#SBATCH --gres=gpu:k40:2` <br/>
 
-```
-```
+##### Final script:<br/>
+
 ```shell
 #!/bin/bash
 #SBATCH -N 5
