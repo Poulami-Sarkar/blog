@@ -54,3 +54,35 @@ for month  in /mnt/rds/redhen/gallina/tv/2019/*; do
 done
 echo "running OCR"
 ```
+
+### Job Statistics
+```
+[pxs656@hpc3 Bengali-Hindi-OCR]$ scontrol show jobid -dd 13732066
+JobId=13732066 JobName=just_a_test
+   UserId=pxs656(1061339) GroupId=mbt8(10183) MCS_label=N/A
+   Priority=1013 Nice=0 Account=mbt8 QOS=normal
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=02:36:22 TimeLimit=1-00:00:00 TimeMin=N/A
+   SubmitTime=2019-08-13T08:54:59 EligibleTime=2019-08-13T08:54:59
+   StartTime=2019-08-13T08:55:00 EndTime=2019-08-14T08:55:00 Deadline=N/A
+   PreemptTime=None SuspendTime=None SecsPreSuspend=0
+   Partition=batch AllocNode:Sid=hpc3:83019
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=compt[167-171]
+   BatchHost=compt167
+   NumNodes=5 NumCPUs=25 NumTasks=5 CPUs/Task=5 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=25,mem=300G,node=5
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+     Nodes=compt[167-171] CPU_IDs=0-4 Mem=61440 GRES_IDX=
+   MinCPUsNode=5 MinMemoryCPU=12G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   Gres=(null) Reservation=(null)
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/mnt/rds/redhen/gallina/home/pxs656/Github/Bengali-Hindi-OCR/test.slurm
+   WorkDir=/mnt/rds/redhen/gallina/home/pxs656/Github/Bengali-Hindi-OCR
+   StdErr=/mnt/rds/redhen/gallina/home/pxs656/Github/Bengali-Hindi-OCR/my.stdout
+   StdIn=/dev/null
+   StdOut=/mnt/rds/redhen/gallina/home/pxs656/Github/Bengali-Hindi-OCR/my.stdout
+   ```
