@@ -10,10 +10,21 @@ categories: post
 
 ### Removing redundancies in OCR
 One of the major problems faced while detecting a continuous ticker was the ensuring continuity and removal of incomplete words at the edges of the detected ticker.<br/>
-Example:
-<br/>
-By setting the frame_skip (i.e the number of frames skipped before detecting next piece of ticker) value as 110 frames, and eliminating the first and the last words of each piece of detected text, a reasonable amount of continuity can be ensured. The value of frame_skip is channel specific and depends on the speed of the ticker for a particular channel. Since, the news videos I worked on are from DD News, I was able to hardcode this value. 
 
+By setting the frame_skip (i.e the number of frames skipped before detecting next piece of ticker) value as 110 frames, and eliminating the first and the last words of each piece of detected text, a reasonable amount of continuity can be ensured. The value of frame_skip is channel specific and depends on the speed of the ticker for a particular channel. Since, the news videos I worked on are from DD News, I was able to hardcode this value. <br />
+Example:<br />
+Before eliminating the first and last words
+```
+20190107053014.238|20190107053016.441|TIC2|000450|000 454 501 034|fi DDNEWS4SANSKRIT@GMAIL.COM इति सकते प्र 
+20190107053018.641|20190107053020.840|TIC2|000560|031 455 528 029|ति सड्धुते प्रेषयन्त, प्रतियोगिताया परिणाम 12-01-2019 तम-
+20190107053023.039|20190107053025.238|TIC2|000670|011 456 548 028|019 तम-दिनाकस्य 'वार्तावली' कार्यक्रमे घोषयिष्यते।  थ
+```
+Final output after eliminating the first and last words
+```
+20190107053014.238|20190107053016.441|TIC2|000450|000 454 501 034|DDNEWS4SANSKRIT@GMAIL.COM इति सकते
+20190107053018.641|20190107053020.840|TIC2|000560|031 455 528 029|सड्धुते प्रेषयन्त, प्रतियोगिताया परिणाम 12-01-2019
+20190107053023.039|20190107053025.238|TIC2|000670|011 456 548 028|तम-दिनाकस्य 'वार्तावली' कार्यक्रमे घोषयिष्यते।
+```
 ### Getting started with Slurm jobs
 Slurm (Simple Linux Utility for Resource Management) is an open-source job scheduler that allocates compute resources on clusters for queued researcher defined jobs.
 
