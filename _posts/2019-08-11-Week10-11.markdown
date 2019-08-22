@@ -5,6 +5,10 @@ categories: post
 ---
 
 ##Deliverables
-1. Bug fixes
+1. Running the code
+The source code for my work can be found [Github](https://www.github.com/Poulami-Sarkar/Bengali-Hindi-OCR).
+I am currently facing some issues in trying scheduling a batch job for a daily run. I am trying to use cron that submits a batch job everyday and runs the OCR for the new incomming files.
 
-The fin
+### Problem faced
+Cron is failing to run any of the slurm commands such as sinfo, sbatch, scontrol etc. No errors are being logged so solving the issue appears to be quite challenging
+

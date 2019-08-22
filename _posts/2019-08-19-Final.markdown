@@ -4,7 +4,34 @@ date:   2019-08-19
 categories: post
 ---
 
+[Link to my repository](https://www.github.com/Poulami-Sarkar/Bengali-Hindi-OCR)
+
+My 12 weeks of working for Redhen lans is finally coming to a conclusion. Here's a brief summary of the work done and the challenges faced
+
+## Project Description
+My project was to develop a stable pipeline that performs OCR on videos from Hindi and Bengali news channels. My goal was to automatically detect all pieces of text that appear in the video and saving the same in the expected Redhen format.
+
+## Process
+I used EAST text detector for detecting the text from the videos. I have implemented the text detection in two parts. The first part involves detecting regions of text and then stitching together various detected regions to form words.
+Since, the text detection is not language specific, it successfully detects text in all language. <br />
+
+*NOTE: This functionality is a scalable solution for text detection that can be used for detecting text in any language from any video.* <br />
+Example:
+<br/>
+[Code for text detection](https://github.com/Poulami-Sarkar/Bengali-Hindi-OCR/blob/master/textdetection_scalable.py)<br />
+
+The next phase of the project was OCR. I have implemented this functionality using Tesseract4.0. This proved to be the most challenging part of the project as I have implemented this for 3 diiferent languages
+(bengali, hindi,english). Since there was no means of deducing the language of the detected text, I ran the OCR assuming the text to be in multiple languages. This has significantly decreased the accuracy in cases where a single sentence consisted of text in more than one language <br />
+[Example](/blog/assets/article_images/tick-220.jpg)<br />
+OUTPUT: 'HORITY द्वारा जनहित में जारी www.iepf.govin @'<br />
+
+[Code for OCR](https://github.com/Poulami-Sarkar/Bengali-Hindi-OCR/blob/master/scene.py)<br />
+*NOTE:The bengali OCR can be further improved to increase the accuracy*
+
 ## Here's the final product
+Demo for the final product will be updates shortly
 
-
-Bye bye!!!
+## Future scope
+A major challenge was that poor image quality especially in Bengali news videos leads to some small errors. <br />
+[Example] Will be updated shortly <br />
+Other minor errors can be corrected using Natural Language Processing. Sentence completion and correction can be done using deeplearning (RNN). As a future project, this has to be implemented separately for each language as well as for any case of combination of two or more languages.
