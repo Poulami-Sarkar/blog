@@ -22,7 +22,7 @@ Example:
 
 The next phase of the project was OCR. I have implemented this functionality using Tesseract4.0. This proved to be the most challenging part of the project as I have implemented this for 3 diiferent languages
 (bengali, hindi,english). Since there was no means of deducing the language of the detected text, I ran the OCR assuming the text to be in multiple languages. This has significantly decreased the accuracy in cases where a single sentence consisted of text in more than one language <br />
-[Example](/blog/assets/article_images/tick-220.jpg)<br />
+![Example](/blog/assets/article_images/tick-220.jpg)<br />
 OUTPUT: 'HORITY द्वारा जनहित में जारी www.iepf.govin @'<br />
 
 [Code for OCR](https://github.com/Poulami-Sarkar/Bengali-Hindi-OCR/blob/master/scene.py)<br />
