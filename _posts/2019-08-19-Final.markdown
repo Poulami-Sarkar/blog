@@ -30,7 +30,7 @@ OUTPUT: 'HORITY द्वारा जनहित में जारी www.ie
 *NOTE:The bengali OCR can be further improved to increase the accuracy*
 
 ## Here's the final product
-Demo for the final product will be updates shortly
+DEMO
 {% include youtubePlayer.html id="OSbI_zKPMcg" %}
 
 ***OUTPUT***
