@@ -58,3 +58,9 @@ echo 'exit'
 A major challenge was that poor image quality especially in Bengali news videos leads to some small errors. <br />
 [Example] Will be updated shortly <br />
 Other minor errors can be corrected using Natural Language Processing. Sentence completion and correction can be done using deeplearning (RNN). As a future project, this has to be implemented separately for each language as well as for any case of combination of two or more languages.
+
+## Links to the code
+[OCR](https://github.com/Poulami-Sarkar/Bengali-Hindi-OCR/blob/master/scene.py)<br />
+[textdetection along with OCR](https://github.com/Poulami-Sarkar/Bengali-Hindi-OCR/blob/master/textdetection.py)<br />
+[textdetection](https://github.com/Poulami-Sarkar/Bengali-Hindi-OCR/blob/master/textdetection_scalable.py)<br />
+[Slurm HPC job (deployment)](https://github.com/Poulami-Sarkar/Bengali-Hindi-OCR/blob/master/test.slurm)
