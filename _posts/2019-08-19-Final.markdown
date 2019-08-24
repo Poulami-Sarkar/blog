@@ -32,6 +32,25 @@ OUTPUT: 'HORITY द्वारा जनहित में जारी www.ie
 ## Here's the final product
 Demo for the final product will be updates shortly
 
+## Submitting a slurm jobs on the HPC cluster
+` sbatch <filename>.slurm `
+The script used to submit the OCR code as a batch job can be found [here](https://github.com/Poulami-Sarkar/Bengali-Hindi-OCR/blob/master/test.slurm)<br />
+Submit the job using ` sbatch test.slurm ` <br />
+The maximum walltime for the main partition (queue) on the HPC server is 24 hours after which the job will automatically terminate. Since, my code is required to run periodically for new videos that are added to the server, I have made the job schedule itself before quitting. 
+This functionality can be disabled by commenting the line 
+` sbatch test.slurm ` as shown:<br />:
+```shell
+while [ 1 -eq 1 ]
+do
+	NOW=$( date '+%T' )
+	if [ "$NOW" == "$TIME" ]
+	then
+        	#sbatch trial.slurm
+	fi
+done
+echo 'exit'
+```
+
 ## Future scope
 A major challenge was that poor image quality especially in Bengali news videos leads to some small errors. <br />
 [Example] Will be updated shortly <br />
