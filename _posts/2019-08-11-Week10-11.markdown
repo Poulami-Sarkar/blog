@@ -5,7 +5,7 @@ categories: post
 ---
 
 ## Deliverables
-1. Deployment<br />
+**Deployment**<br />
 The source code for my work can be found [here](https://www.github.com/Poulami-Sarkar/Bengali-Hindi-OCR).
 I am currently facing some issues in trying scheduling a script that submits a batch job daily. I am trying to use cron that submits a batch job everyday and runs the OCR for the new incomming files.
 
