@@ -17,8 +17,8 @@ Since, the text detection is not language specific, it successfully detects text
 
 *NOTE: This functionality is a scalable solution for text detection that can be used for detecting text in any language from any video.* <br />
 Example<br />
-![Detected text regions](/blog/assets/article_images/7.jpg)<br />
-![Stitched sentences](/blog/assets/article_images/6.jpg)<br />
+![Detected text regions](/blog/assets/article_images/7.png)<br />
+![Stitched sentences](/blog/assets/article_images/6.png)<br />
 [Code for text detection](https://github.com/Poulami-Sarkar/Bengali-Hindi-OCR/blob/master/textdetection_scalable.py)<br />
 
 The next phase of the project was OCR. I have implemented this functionality using Tesseract4.0. This proved to be the most challenging part of the project as I have implemented this for 3 diiferent languages
