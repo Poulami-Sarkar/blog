@@ -30,9 +30,33 @@ OUTPUT: 'HORITY द्वारा जनहित में जारी www.ie
 *NOTE:The bengali OCR can be further improved to increase the accuracy*
 
 ## Here's the final product
+The final code is available at(https://github.com/Poulami-Sarkar/Bengali-Hindi-OCR/blob/master/textdetection.py). The code requires ```tesseract-OCR```, ```language-pack-en``` and the python libraries ```pytesseract```, ```opencv-python```, ```numpy```, ```pandas``` to be installed. This code can be run using:<br />
+```python textdetection.py <video>.mp4 <directory path> '<language>'``` <br />
+The script takes 3 arguments.
+1. Filename of the video
+2. Full path of the directory containing the video and header file (This should be a text file with the same name as the video and extension .txt)
+3. OCR language 'hin+eng' or 'ben' for hindi or bengali news channels.
+
+**Run using singularity containers:** <br />
+If you want to run the code without installing the prerequisite libraries you can opt for running it using singularity containers: <br />
+``` singularity exec -B `pwd`:/mnt ben-hin-ocr.sif python3 /mnt/textdetection.py <video>.mp4 <directory path> 'hin+eng' ``` <br />
+For more details on how to run singualrity containers refer to this [link1](https://singularity.lbl.gov/docs-mount) [link2](https://singularity.lbl.gov/docs-run)
+
 DEMO
 {% include youtubePlayer.html id="OSbI_zKPMcg" %}
-
+Header file (2019-01-04_0500_IN_DD-News_News_For_Hearing_Impaired.txt): 
+```
+TOP|20190104050001|2019-01-04_0500_IN_DD-News_News_For_Hearing_Impaired
+COL|Communication Studies Archive, UCLA
+UID|0b6fb8b0-3a42-11e9-9bda-cbebd1bc6130
+DUR|00:29:54
+VID|720x576|1024x576
+SRC|Kolkata, India
+TTL|Morning news
+CMT|Morning news
+CC1|HIN
+LBT|2019-01-04 10:30:01 Asia/India
+```
 ***OUTPUT***
 ```
 TOP|20190104050001|2019-01-04_0500_IN_DD-News_News_For_Hearing_Impaired
@@ -115,6 +139,7 @@ Other minor errors can be corrected using Natural Language Processing. Sentence 
 
 ## Links to the code
 [OCR](https://github.com/Poulami-Sarkar/Bengali-Hindi-OCR/blob/master/scene.py)<br />
+[OCR training using tesseract](https://github.com/tesseract-ocr/tesseract/wiki/TrainingTesseract-4.00#creating-training-data)
 [textdetection along with OCR](https://github.com/Poulami-Sarkar/Bengali-Hindi-OCR/blob/master/textdetection.py)<br />
 [textdetection](https://github.com/Poulami-Sarkar/Bengali-Hindi-OCR/blob/master/textdetection_scalable.py)<br />
 [Slurm HPC job (deployment)](https://github.com/Poulami-Sarkar/Bengali-Hindi-OCR/blob/master/test.slurm)
