@@ -5,6 +5,7 @@ categories: post
 ---
 
 [Link to my repository](https://www.github.com/Poulami-Sarkar/Bengali-Hindi-OCR)
+[Link to complete GSOC blog](https://poulami-sarkar.github.io/blog)
 
 My 12 weeks of working for Redhen lab is finally coming to a conclusion. Here's a brief summary of the work done and the challenges faced
 
