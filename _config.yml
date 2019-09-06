@@ -47,6 +47,13 @@ social:
     share_url:
     share_title:
     share_link:
+    
+  - icon:	linkedin
+    url:	https://scholar.google.com/citations?user=XLLzkTgAAAAJ&hl=en#
+    desc:	Look me up on google scholar
+    share_url:
+    share_title:
+    share_link:    
 
   - icon:	google
     url:	https://scholar.google.com/citations?user=XLLzkTgAAAAJ&hl=en#
