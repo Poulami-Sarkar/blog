@@ -4,7 +4,7 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "GSoC Blog"
+title: "Blog"
 description: > # this means to ignore newlines until "email:"
    Red Hen Lab bengali and Hindi OCR
 
