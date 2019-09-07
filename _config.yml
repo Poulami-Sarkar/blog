@@ -61,3 +61,10 @@ social:
     share_url:
     share_title:
     share_link:
+    
+  - icon:	dblp
+    url:	https://dblp.org/pers/hd/s/Sarkar:Poulami
+    desc:	Look me up on dblp
+    share_url:
+    share_title:
+    share_link:
