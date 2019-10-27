@@ -4,7 +4,7 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "Blog"
+title: "website"
 description: > # this means to ignore newlines until "email:"
    Red Hen Lab bengali and Hindi OCR
 
@@ -23,7 +23,7 @@ author: 'Poulami Sarkar'
 paginate:	5
 
 url: "https://poulami-sarkar.github.io" # the base hostname & protocol for your site
-baseurl: "/blog"
+baseurl: "/website"
 #used to display twitter cards
 twitter_handle: '@0Kira10'
 
